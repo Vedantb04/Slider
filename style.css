@@ -412,3 +412,98 @@ header a {
         font-size: 30px;
     }
 }
+@media screen and (max-width: 300px) {
+    .carousel .list .item .content {
+        margin: -29px;
+        position: absolute;
+        /* top: 20%; */
+        top: 10%;
+        width: 90%;
+        max-width: 50%;
+        max-height: 20px;
+        left: 44%;
+        transform: translateX(-60%);
+        padding-right: 0%;
+        box-sizing: border-box;
+        color: #cec3c3;
+        text-shadow: 10px 5px 10px #0004;
+    }
+    .carousel .list .item .author {
+        font-weight: bold;
+        letter-spacing: 6px;
+        font-variant: normal;
+        font-size: 250%;
+        text-decoration: dotted;
+    }
+    
+    .carousel .list .item .athi {
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-variant: normal;
+        font-size: 9px;
+        text-decoration: dotted;
+        margin-top: -24%;
+        padding: 0px 76px;
+        color: rgba(87, 167, 166, 0.96);
+    
+    
+    }
+    .carousel .list .item .title,
+.carousel .list .item .topic {
+    font-size: 2.7em;
+    font-weight: bold;
+    line-height: .5em;
+}
+
+.carousel .list .item .topic{
+    padding: 7px;
+    font-size: 2.7em;
+    font-weight: bold;
+    line-height: 0.9em;
+    color: lightgoldenrodyellow;
+    background: linear-gradient(to right, #971ccb7a, #ffda07);
+    /* background: linear-gradient(to right, #0e11d37a, #07fff7); */
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+.arrows {
+    position: absolute;
+    top: 50%;
+    right: 6.9%;
+    z-index: 10;
+    width: 300px;
+    max-width: 30%;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.arrows button {
+    border-radius: 50%;
+    background : linear-gradient(rgba(234, 15, 15, 0.697) , rgba(0, 255, 255, 0.778) ,rgba(249, 6, 249, 0.7),rgb(242, 154, 240)) ;
+}
+.arrows button:hover {
+    background: linear-gradient(rgba(255, 217, 0, 0.737), rgba(0, 89, 255, 0.752));
+    color: #000;
+    cursor: pointer;
+}
+ /* Thumbnail */
+.thumbnail {
+    position: absolute;
+    top: 59%;
+    left: 48%;
+    gap: 14px;
+}
+
+.thumbnail .item {
+    width: 100px;
+    height: 160px;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.thumbnail .item .content {
+    bottom: 7px;
+    left: 5.7px;
+    right: 6px;
+}
+}
