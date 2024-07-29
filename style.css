@@ -412,7 +412,7 @@ header a {
         font-size: 30px;
     }
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 450px) {
     .carousel .list .item .content {
         margin: -29px;
         position: absolute;
