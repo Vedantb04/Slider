@@ -51,16 +51,18 @@ header a {
 }
 
 .carousel .list .item .content {
+    /* margin: -29px; */
     position: absolute;
-    top: 20%;
+    /* top: 20%; */
+    top: 9%;
     width: 1140px;
     max-width: 80%;
-    left: 50%;
+    left: 42%;
     transform: translateX(-50%);
-    padding-right: 30%;
+    padding-right: 10%;
     box-sizing: border-box;
     color: #fff;
-    text-shadow: 0 5px 10px #0004;
+    text-shadow: 10px 5px 10px #0004;
 }
 
 .carousel .list .item .author {
@@ -412,7 +414,7 @@ header a {
         font-size: 30px;
     }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 300px) {
     .carousel .list .item .content {
         margin: -29px;
         position: absolute;
